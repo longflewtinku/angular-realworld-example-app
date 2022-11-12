@@ -1,0 +1,8 @@
+[Unit]
+Description = My App 
+
+
+[Service]
+ExecStart = /root/start-myapp.sh
+Restart=on-failure
+RestartSec=10
